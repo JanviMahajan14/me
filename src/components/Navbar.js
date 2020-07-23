@@ -13,7 +13,7 @@ const Navbar = () => {
                         renderList.map((item) => {
                             return (
                               <li class="nav-item active text-center bounceIn ">
-                                <a class="nav-link" href="#">
+                                <a class="nav-link" href={`#${item.toLowerCase().split(" ").join("")}`}>
                                   {item}
                                 </a>
                               </li>
