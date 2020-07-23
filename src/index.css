@@ -69,7 +69,8 @@ header {
   }
 }
 
-.about {
+.about,
+#projects {
   background-color: var(--pink);
   height: 100vh;
   overflow: auto;
@@ -102,4 +103,67 @@ header {
 .Icode {
   font-family: "La Belle Aurore", cursive;
   font-size: 5rem;
+}
+
+#skills > p {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  font-weight: 100;
+  letter-spacing: 0.2rem;
+  margin-top: 10px;
+}
+
+.icons {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  color: var(--pink);
+  list-style: none;
+}
+
+.icons > li {
+  margin: 40px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.icons > li > h3 {
+  letter-spacing: normal;
+}
+
+#contact,
+#skills {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: auto;
+  background-color: black;
+  color: white;
+}
+
+#contact > h1,
+#skills > h1 {
+  font-family: "Text Me One", sans-serif;
+  color: var(--pink);
+}
+
+#contact > h4,
+h3 {
+  font-family: "Text Me One", sans-serif;
+  margin: 10px 0;
+  letter-spacing: 0.3rem;
+}
+
+#links {
+  display: flex;
+  list-style: none;
+}
+
+#links > li {
+  margin: 10px 20px;
 }
