@@ -1,13 +1,69 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  --pink: rgb(128, 105, 214); /*hotpink*/
+  --lightpink: rgb(104, 101, 207); /*#7b2f55; */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  font-family: sans-serif;
+  line-height: 20px;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+}
+
+.navbar-dark .navbar-nav .active > .nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show > .nav-link {
+  color: white;
+  padding: 1rem;
+  letter-spacing: 0.3rem;
+  padding: 10px 25px;
+  font-family: "Catamaran", sans-serif;
+  font-size: 1.3rem;
+  font-weight: lighter;
+}
+
+.nav-link:hover {
+  color: var(--pink) !important;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(104,101,207, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: var(--pink);
+}
+
+header {
+  border: 1px solid black;
+  background-color: black;
+  height: 100%;
+}
+
+.janvi {
+  margin: 30vh auto;
+  text-align: center;
+}
+
+.name {
+  font-family: "Text Me One", sans-serif;
+  color: var(--pink);
+  font-size: 12rem;
+}
+
+.fed {
+  font-family: "Catamaran", sans-serif;
+  letter-spacing: 0.5rem;
+  color: var(--lightpink);
+}
+
+@media (max-width: 767px) {
+  .name {
+    font-size: 4rem;
+  }
 }
