@@ -5,8 +5,8 @@ const Projects = () => {
         <div id="projects" className="container-fluid">
             <h1>My Projects</h1>
             <div className="row project-content">
-                <div className="col-6"><img className="materialboxed" src="https://res.cloudinary.com/smilingcloud/image/upload/v1595668246/Screenshot_from_2020-07-24_15-56-04_kjw22z.png" alt="" style={{ width: "400px", height: "300px" }}></img></div>
-                <div className="col-6">
+                <div className="col-7"><img className="materialboxed" src="https://res.cloudinary.com/smilingcloud/image/upload/v1595668246/Screenshot_from_2020-07-24_15-56-04_kjw22z.png" alt="" style={{ width: "400px", height: "300px" }}></img></div>
+                <div className="col-5">
                     <h4 className="project-title">
                         <a href="https://github.com/JanviMahajan14/Social-Buddy" target="_blank">
                         Social Buddy
