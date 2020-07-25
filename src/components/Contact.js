@@ -9,7 +9,7 @@ const Contact = () => {
                 <li><a target="_blank" href="https://github.com/JanviMahajan14"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a></li>
                 <li><a target="_blank" href="https://www.linkedin.com/in/janvi-mahajan-497377167/"><i class="fa fa-linkedin fa-3x" aria-hidden="true"></i></a></li>
                 <li><a target="_blank" href="https://www.facebook.com/janvi.mahajan.31945/"><i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i></a></li>
-                <li><a target="_blank" href="https://www.facebook.com/janvi.mahajan.31945/"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a></li>
+                <li><a target="_blank" href="https://twitter.com/JanviMahajan14_"><i class="fa fa-twitter fa-3x" aria-hidden="true"></i></a></li>
             </ul>
             <h4>Email me: <a href="mailto:janvimahajan337@gmail.com">janvimahajan337@gmail.com</a></h4>
             <h3 style={{fontSize:"1rem"}}>made with <i class="fa fa-heart" aria-hidden="true"></i> by Janvi Mahajan</h3>

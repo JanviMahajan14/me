@@ -12,6 +12,7 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
+  background-color: var(--pink);
 }
 
 .navbar-dark .navbar-nav .active > .nav-link,
@@ -69,8 +70,7 @@ header {
   }
 }
 
-.about,
-#projects {
+.about {
   background-color: var(--pink);
   height: 100vh;
   overflow: auto;
@@ -82,7 +82,8 @@ header {
   text-align: center;
 }
 
-.about > h1 {
+.about > h1,
+#projects > h1 {
   font-family: "Text Me One", sans-serif;
   margin: 10px 0px;
 }
@@ -166,4 +167,50 @@ h3 {
 
 #links > li {
   margin: 10px 20px;
+}
+
+#projects {
+  background-color: var(--pink);
+  color: white;
+  text-align: center;
+  height: 100vh;
+}
+
+#projects > h1 {
+  padding: 2rem 0;
+  font-size: 36px;
+}
+
+.project-content {
+  width: 60%;
+  align-items: center;
+}
+
+.project-title {
+  font-family: "Catamaran", sans-serif;
+  letter-spacing: 0.3rem;
+  font-size: 2rem;
+  font-weight: 100;
+  margin-bottom: 2em;
+  text-align: left;
+}
+
+.project-suite {
+  margin-top: -40px;
+}
+
+.project-suite > span {
+  color: #212121;
+  font-family: "Catamaran", sans-serif;
+  font-size: 1.5em;
+  margin: 10px;
+}
+
+.project-description {
+  text-align: left;
+  margin-top: 0.9em;
+  font-family: "Text Me One", sans-serif;
+  font-size: 1.3em;
+  font-weight: 100;
+  letter-spacing: 0.2rem;
 }
